@@ -1,0 +1,14 @@
+#header {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  height: 56vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-header {
+  border: 1px solid black;
+  width: 65vw;
+  height: 56vh;
+}

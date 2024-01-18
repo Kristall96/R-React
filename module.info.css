@@ -1,0 +1,41 @@
+#info-section {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+#right-info {
+  padding: 0 2vw 0 0.7vw;
+  margin: 0 0 0 17.5vw;
+}
+.span-info {
+  border: 1px solid;
+  padding: 0 0.3vw;
+  border-radius: 5px;
+}
+#img-info {
+  width: 27.9%;
+  border: solid 1px black;
+  height: 168px;
+  width: 168px;
+  border-radius: 50%;
+  background-color: #808080;
+  z-index: 500;
+}
+#profile-img {
+  height: 168px;
+  width: 168px;
+}
+#user-info {
+  width: 25.78%;
+  padding: 0 0 0 2vw;
+}
+#name-info {
+  padding: 0;
+  margin: 0;
+}
+#friends-count {
+  border: 1px solid black;
+  border-radius: 5px;
+}

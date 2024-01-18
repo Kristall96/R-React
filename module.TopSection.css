@@ -1,0 +1,58 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  /* border: 1px solid; */
+  margin: 0;
+  padding: 0;
+}
+#app {
+  border: solid 1px black;
+}
+#section-top {
+  padding: 0 1.5vw;
+  display: flex; /* Set display property to inline-block */
+}
+#section-top span {
+  display: inline-block; /* Set display property to inline-block */
+  vertical-align: middle; /* Optional: Align spans vertically */
+}
+#top-left {
+  width: 33.33%;
+  border-right: 1px solid black;
+}
+#search {
+  padding-left: 1vw;
+}
+#logo img {
+  height: 5.5vh; /* Set a specific height for the logo image */
+  width: auto; /* Maintain aspect ratio */
+}
+#top-search {
+  border: 1px black solid;
+  background-color: transparent;
+  border-radius: 2vw;
+  width: 14vw;
+  height: 3vh;
+  cursor: pointer;
+}
+.top-logo {
+  height: 3.5vh; /* Set a specific height for the logo image */
+  width: auto;
+}
+#top-center {
+  width: 33.33%;
+  border-right: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 3.5vw;
+}
+#top-right {
+  width: 33.33%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 1vw;
+  padding-bottom: 0.5vw;
+}
